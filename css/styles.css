@@ -28,6 +28,7 @@
 html {
   scroll-behavior: smooth;
   scroll-padding-top: 94px;
+  overflow-x: hidden;
 }
 
 body {
@@ -36,6 +37,7 @@ body {
   color: var(--ink);
   background: var(--bg);
   line-height: 1.45;
+  overflow-x: hidden;
 }
 
 body::selection {
@@ -233,6 +235,8 @@ button {
 
 .hero-content {
   position: relative;
+  width: min(var(--container), calc(100vw - 32px));
+  margin-inline: auto;
   display: grid;
   justify-items: center;
   text-align: center;
@@ -1328,7 +1332,7 @@ address a {
   }
 
   .hero-content {
-    width: 100%;
+    width: calc(100vw - 24px);
     max-width: 100%;
   }
 
