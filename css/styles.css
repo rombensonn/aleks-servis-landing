@@ -1323,9 +1323,23 @@ address a {
     padding-top: 96px;
   }
 
+  .hero-content {
+    width: 100%;
+    max-width: 100%;
+  }
+
   h1 {
+    justify-self: stretch;
+    width: 100%;
+    max-width: 100%;
     font-size: clamp(2.05rem, 9.6vw, 2.35rem);
     line-height: 0.96;
+  }
+
+  .hero-lead {
+    justify-self: stretch;
+    width: 100%;
+    max-width: 100%;
   }
 
   h2 {
