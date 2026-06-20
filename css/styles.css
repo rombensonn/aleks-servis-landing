@@ -262,6 +262,7 @@ p {
 }
 
 h1 {
+  width: min(880px, 100%);
   max-width: 880px;
   margin-bottom: 18px;
   font-size: clamp(3rem, 7.8vw, 6.8rem);
@@ -269,6 +270,7 @@ h1 {
   letter-spacing: 0;
   font-weight: 950;
   overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 h2 {
@@ -1322,8 +1324,8 @@ address a {
   }
 
   h1 {
-    font-size: clamp(2.45rem, 11.4vw, 2.85rem);
-    line-height: 0.92;
+    font-size: clamp(2.05rem, 9.6vw, 2.35rem);
+    line-height: 0.96;
   }
 
   h2 {
